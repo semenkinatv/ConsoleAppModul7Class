@@ -245,7 +245,7 @@ namespace ConsoleAppModul7Class
                 Console.Write("Введите наименование товара:");
                 name = Console.ReadLine();
                 
-                Console.Write("Введите количество :");
+                Console.Write("Введите количество цифрой:");
                 cnt = Convert.ToInt32(Console.ReadLine());
                 
                 listOrderTov[i] = new OrderTov(name, cnt);
